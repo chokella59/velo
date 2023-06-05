@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  /* Styles généraux */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1;
+    color: #333;
+  }
+  .btn {
+    display: inline-block;
+    background-color: #34363d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .s{
+    font-size: 50px;
+    color: #292b30;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  .logo{
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 5px;
+    letter-spacing: 5px;
+
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* En-tête */
+  header {
+    background-color: #34363d;
+    padding: 5px;
+    font-size: 40px;
+  }
+  nav ul li a:hover{
+    color: #9e9e9e;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 15px;
+    
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+   
+  }
+  
+  /* Styles de la section principale */
+  .main-content {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+  }
+  
+  .main-content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles du pied de page */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+ 
+    .featured-products {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      
+      .featured-products h2 {
+        font-size: 24px;
+        margin-bottom: 40px;
+        padding-top: 15px;
+      }
+      
+      .product {
+        display: inline-block;
+        width: 300px;
+        margin: 20px;
+        text-align: center;
+      }
+      
+      .product img {
+        width: 100%;
+        max-height: 200px;
+        object-fit: cover;
+        margin-bottom: 10px;
+      }
+      
+      .product h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      .product .price {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
